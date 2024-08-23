@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #333;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: rgb(0,0,0);
+    background: linear-gradient(100deg, rgb(27, 27, 27) 0%, rgb(0, 6, 27) 100%);
+}
+
+main {
+    flex: 1 0 auto;
+    color: aliceblue;
+}
+
+#center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
