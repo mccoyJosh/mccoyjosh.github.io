@@ -10,7 +10,7 @@ html, body {
 
 body {
     color: #333;
-    font-family: sans-serif;
+    font-family: Verdana, serif;
     display: flex;
     flex-direction: column;
     background: rgb(0,0,0);
