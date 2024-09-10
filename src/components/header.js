@@ -64,7 +64,7 @@ class Header extends HTMLElement {
           </ul>
         </nav>
         <div id="center-screen">
-            <hr width="50%" size=3; color="white"/>
+            <hr width="75%" size=3; color="white"/>
         <div/>
       </header>
     `;
