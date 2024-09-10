@@ -12,7 +12,7 @@ class Header extends HTMLElement {
           align-items: center;
           justify-content: center;
         }
-
+        
         #menu ul {
           list-style: none;
           margin: 0;
@@ -22,7 +22,7 @@ class Header extends HTMLElement {
         #menu li {
             display: inline-block;
         }
-        
+       
         
         h1 {
           margin-right: 75px;
@@ -40,12 +40,11 @@ class Header extends HTMLElement {
           text-decoration: none;
         }
         
+        
         a:hover {
           padding-bottom: 5px;
           box-shadow: inset 0 -2px 0 0 #fff;
         }
-        
-     
         
       </style>
       <header>
@@ -53,10 +52,15 @@ class Header extends HTMLElement {
           <ul id="menu">
             <li>
                 <a href="../">
-                    <h1>Josh Website</h1>
+                    <h1>mcjosh</h1>
                 </a>
+                <p id="basic-text">
+                    a josh mccoy website
+                </p>
             </li>
-            <li><a href="../about/">About</a></li>
+            <li>
+              <a href="../about/">About</a>
+            </li>
           </ul>
         </nav>
         <div id="center-screen">
