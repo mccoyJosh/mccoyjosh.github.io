@@ -6,14 +6,21 @@ class Footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
       <style>
+        #footer-item {
+            width: 100%;
+            color: #000309;
+            text-decoration: none;
+            font-size: 10px;
+        }
+      
         footer {
-          height: 30px;
+          height: 20px;
           padding: 0 10px;
           list-style: none;
           display: flex;
           justify-content: space-between;
           align-items: center;
-          background-color: #000000;
+          background-color: #ffffff;
         }
         
         ul li {
@@ -21,10 +28,11 @@ class Footer extends HTMLElement {
           display: inline;
         }
         
-        a {
+        #footer-item a {
           margin: 0 15px;
           color: inherit;
           text-decoration: none;
+          font-size: 10px;
         }
         
         a:hover {
@@ -40,11 +48,14 @@ class Footer extends HTMLElement {
           margin: 0 15px;
         }
       </style>
-      <footer>
+      <footer id= "footer-item">
         <ul>
-          <li><a href="">1</a></li>
-          <li><a href="">2</a></li>
-          <li><a href="">3</a></li>
+           <li>
+               
+           </li>
+           <li>
+              <a href="../l/">Professional Links</a>
+           </li>
         </ul>
       </footer>
     `;

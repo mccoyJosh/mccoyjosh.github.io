@@ -24,7 +24,7 @@ class Header extends HTMLElement {
         }
        
         
-        h1 {
+        #menu h1 {
           margin-right: 75px;
           font-size: 40px;
           background: linear-gradient(to left, #f1f1f1, #fafafa);
@@ -33,7 +33,7 @@ class Header extends HTMLElement {
         }
         
         
-        a {
+        #menu a {
           font-weight: 700;
           margin: 0 25px;
           color: #fff;
@@ -41,7 +41,7 @@ class Header extends HTMLElement {
         }
         
         
-        a:hover {
+        #menu a:hover {
           padding-bottom: 5px;
           box-shadow: inset 0 -2px 0 0 #fff;
         }
