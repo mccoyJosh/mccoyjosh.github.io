@@ -9,7 +9,7 @@ import (
 
 func main() {
 	// API routes
-	http.Handle("/", http.FileServer(http.Dir("./src")))
+	http.Handle("/", http.FileServer(http.Dir("../src")))
 
 	http.HandleFunc("/ping", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "PING: "+time.Now().String())

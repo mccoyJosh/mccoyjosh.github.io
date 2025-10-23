@@ -119,3 +119,9 @@ fabric.properties
 .idea/**/azureSettings.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij
+
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
