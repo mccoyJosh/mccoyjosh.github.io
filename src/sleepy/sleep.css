@@ -1,0 +1,102 @@
+
+/*body {*/
+/*    color:white;*/
+/*    font-family: "Open Sans",ui-serif;*/
+/*    background: #596169;*/
+/*    background: linear-gradient(203deg, rgb(14, 64, 194) 0%, rgb(68, 9, 110) 50%, rgb(168, 0, 61) 100%);*/
+/*}*/
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.gradient {
+    z-index: 100;
+    --size: 750px;
+    --speed: 25s;
+    --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+    width: var(--size);
+    height: var(--size);
+    filter: blur(calc(var(--size) / 5));
+    background-image: linear-gradient(hsl(222, 88%, 39%), hsl(262, 78%, 71%));
+    animation: rotate var(--speed) var(--easing) alternate infinite;
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+@media (min-width: 720px) {
+    .gradient {
+        --size: 500px;
+    }
+}
+
+body {
+    background-image: url("snoozing.gif");
+    background-size: 250px;
+    background-color: #071c39;
+    color: white;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+h1 {
+    font-family: Garamond,serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+    background: black;
+    color: #ffffff;
+    text-align: center;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+p {
+    color: #bee1f5;
+    background: black;
+    text-align: center;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+img {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 20px;
+    border: white;
+    border-style: solid;
+    border-width: 10px;
+}
+
+
+* {
+    transition: all 0.5s ease-out;
+}
+
+.main {
+    z-index: 900;
+    grid-column: 1;
+    grid-row: 1;
+}
