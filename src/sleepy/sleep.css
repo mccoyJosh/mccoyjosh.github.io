@@ -43,12 +43,10 @@ body {
     background-size: 250px;
     background-color: #071c39;
     color: white;
-    position: absolute;
     inset: 0;
     display: grid;
     place-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 
