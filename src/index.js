@@ -18,3 +18,4 @@ document.getElementsByTagName('head')[0].appendChild(link);
 
 loadScript('components/footer.js')
 loadScript('components/header.js')
+loadScript('components/todo.js')

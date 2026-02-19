@@ -14,7 +14,6 @@ body {
     display: flex;
     flex-direction: column;
     background: rgb(0,0,0);
-    /*background: linear-gradient(100deg, rgb(27, 27, 27) 0%, rgb(0, 6, 27) 100%);*/
 }
 
 #basic-text {
@@ -26,6 +25,8 @@ body {
 main {
     flex: 1 0 auto;
     color: aliceblue;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #center-screen {
