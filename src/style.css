@@ -36,3 +36,7 @@ main {
     align-items: center;
     text-align: center;
 }
+
+.fancy_text {
+    font-family: cursive, serif;
+}

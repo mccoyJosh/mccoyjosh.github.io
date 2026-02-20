@@ -1,0 +1,92 @@
+
+.rec_title {
+    padding-bottom: 50px;
+    font-size: 7vw;
+}
+
+.rec_subtitle {
+    font-size: 30px;
+    text-decoration-line: underline;
+    padding-bottom: 10px;
+}
+
+.rec_box {
+    color: black;
+    background: white;
+    border-radius: 10px;
+    padding: 3%;
+    box-shadow: 4px 4px 8px #dcdcdc;
+    margin-bottom: 20px;
+}
+
+
+.rec_content {
+    margin-left: 10px;
+}
+
+.rec_box ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.rec_box li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.rec_box li:before {
+    content: "■";
+    padding-right: 5px;
+}
+
+
+.paragraph_list {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+.all_rec_box {
+    color: black;
+    background: white;
+    border-radius: 10px;
+    padding: 4%;
+    box-shadow: 4px 4px 8px #dcdcdc;
+    margin-bottom: 30px;
+    text-decoration-line: none;
+}
+
+
+@keyframes recipe_box_animation {
+    0% {background-color: #ffffff;}
+    50% {background-color: #e1e1e1;}
+    100% {background-color: #ffffff;}
+}
+
+.all_rec_box:hover {
+    background-color: #ffffff;
+    animation: recipe_box_animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.all_rec_box h3 {
+    font-family: monospace, serif;
+    font-size: 3vw;
+}
+
+.all_rec_box p {
+    margin-top: 20px;
+    font-size: 2vw;
+}
+
+
+
+
+.all_rec_list {
+    display: flex;
+    flex-direction: column;
+}
+
+

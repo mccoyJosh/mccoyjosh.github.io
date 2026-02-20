@@ -23,7 +23,7 @@ class Footer extends HTMLElement {
           background-color: #ffffff;
         }
         
-        ul li {
+        #footer-item ul li {
           list-style: none;
           display: inline;
         }
@@ -35,7 +35,7 @@ class Footer extends HTMLElement {
           font-size: 10px;
         }
         
-        a:hover {
+        #footer-item a:hover {
           padding-bottom: 5px;
           box-shadow: inset 0 -2px 0 0 #333;
         }
